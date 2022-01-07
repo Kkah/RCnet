@@ -40,6 +40,10 @@ Loss function is MSE loss with summation of two axis error
 Your training result will be saved in 'save_model_path'
 
 ## 3. Test
+To test prediction in testset,
+
+    python plot_prediction.py --model cnnlstm --data_path <YOUR_DATAPATH_HERE> --save_model_path <SAVE_MODEL_PATH> --batch_size 64 --epochs 20 --lr 1e-4 --seq_len 5 --target_len 1
+
 ### 3.1. Prediction
 
 ### 3.2. Video
