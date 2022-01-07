@@ -39,7 +39,7 @@ Loss function is MSE loss with summation of two axis error
     loss = F.mse_loss(outputs, targets, reduction = 'sum')
 
 ### 2.2.2. Training Result
-Your training result will be saved in 'save_model_path'
+Your training result will be saved in 'save_model_path'  
 Only the best model will be saved as 'best_model.pth'
 
 ## 3. Test
