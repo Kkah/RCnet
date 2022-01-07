@@ -32,17 +32,8 @@ Loss function is MSE loss with summation of two axis error
     loss = F.mse_loss(outputs, targets, reduction = 'sum')
 
 ### 2.2.2. Result
-![fig_Loss_RCnet](https://user-images.githubusercontent.com/86364359/147040679-cd61ab66-b13e-4fea-a90a-29ce281763be.png)
 
 ## 3. Test
 ### 3.1. Prediction
-#### exp_20211208-142740
-![Prediction_exp_20211208-142740](https://user-images.githubusercontent.com/86364359/147041682-29febaa6-986b-4d77-955b-1041c679fe8b.png)
-#### exp_20211208-132354
-![Prediction_exp_20211208-132354](https://user-images.githubusercontent.com/86364359/147041760-ab04946e-98e3-4398-8bd9-e99a67777ee5.png)
-#### exp_20211208-142936
-![Prediction_exp_20211208-142936](https://user-images.githubusercontent.com/86364359/147041765-c2fcb073-e383-47f3-8fe9-c42a0cca595b.png)
-#### exp_20211207-214442
-![Prediction_exp_20211207-214442](https://user-images.githubusercontent.com/86364359/147041811-53f76f52-e21c-4dbd-a8b5-5c2acb124d5e.png)
 
 ### 3.2. Video
