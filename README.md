@@ -23,8 +23,9 @@ To install all the requirements type following command in the command line
 ## 2. Training
 
 To start train,
+
     python main.py --model cnnlstm --data_path <YOUR_DATAPATH_HERE> --save_model_path <SAVE_MODEL_PATH> --batch_size 64 --epochs 20 --lr 1e-4 --seq_len 5 --target_len 1 
-    
+
 ### 2.1. Model
 Resnet 18 based CNN and CNN-LSTM model
 
