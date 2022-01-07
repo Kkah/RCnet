@@ -1,6 +1,6 @@
 # RCnet
 Robotic Colonoscopy Autonomous Driving with supervised learning.   
-Predicting X and Y axis steering input using CNN.
+Predicting X and Y axis steering input using CNN and CNNLSTM
 
 ## 0. Requirements
 - [Python 3.6](https://www.python.org/)
