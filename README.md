@@ -26,6 +26,8 @@ To start train,
 
     python main.py --model cnnlstm --data_path <YOUR_DATAPATH_HERE> --save_model_path <SAVE_MODEL_PATH> --batch_size 64 --epochs 20 --lr 1e-4 --seq_len 5 --target_len 1 
 
+Be aware of sequence length and target length while training
+
 ### 2.1. Model
 Resnet 18 based CNN and CNN-LSTM model
 
@@ -42,7 +44,9 @@ Your training result will be saved in 'save_model_path'
 ## 3. Test
 To test prediction in testset,
 
-    python plot_prediction.py --model cnnlstm --data_path <YOUR_DATAPATH_HERE> --save_model_path <SAVE_MODEL_PATH> --batch_size 64 --epochs 20 --lr 1e-4 --seq_len 5 --target_len 1
+    python plot_prediction.py --model cnnlstm --data_path <YOUR_DATAPATH_HERE> --save_model_path <SAVE_MODEL_PATH> --seq_len 5 --target_len 1
+
+Be aware of sequence length and target length while testing
 
 ### 3.1. Prediction
 
