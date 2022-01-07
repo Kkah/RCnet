@@ -22,7 +22,7 @@ To install all the requirements type following command in the command line
 
 ## 2. Training
 ### 2.1. Model
-Resnet 18 based CNN
+Resnet 18 based CNN and CNN-LSTM model
 
 ### 2.2. Loss
 ### 2.2.1. Loss function
