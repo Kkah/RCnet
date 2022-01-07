@@ -38,8 +38,9 @@ Loss function is MSE loss with summation of two axis error
     import torch.nn.functional as F
     loss = F.mse_loss(outputs, targets, reduction = 'sum')
 
-### 2.2.2. Result
+### 2.2.2. Training Result
 Your training result will be saved in 'save_model_path'
+Only the best model will be saved as 'best_model.pth'
 
 ## 3. Test
 To test prediction in testset,
