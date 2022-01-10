@@ -7,7 +7,7 @@ def parse_args():
     parser.add_argument('--model', type=str,
                         help='select model in (cnn | cnnlstm)', default = 'cnn')
     parser.add_argument('--data_path', type=str,
-                        help='path to dataset', default = 'C:/Users/217/RC/dataset')
+                        help='path to dataset', default = '/home/rc/RC/dataset')
     parser.add_argument('--save_model_path', type=str,
                         help='path to saving model', default = './saved_model')
     parser.add_argument('--hidden1', type=int,
