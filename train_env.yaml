@@ -1,4 +1,4 @@
-name: train2
+name: train
 channels:
   - pytorch-lts
   - nvidia
@@ -107,4 +107,4 @@ dependencies:
     - qudida==0.0.4
     - scikit-image==0.17.2
     - tifffile==2020.9.3
-prefix: /home/rc/anaconda3/envs/train2
+prefix: /home/rc/anaconda3/envs/train
