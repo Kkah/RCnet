@@ -13,10 +13,11 @@ Predicting X and Y axis steering input using CNN and CNNLSTM
 - [tqdm](https://github.com/tqdm/tqdm)
 
 ### Install requirements
-To install all the requirements type following command in the command line
+To install all the requirements type following command in the command line  
 
-    cd RCnet
-    pip install -r requirements.txt
+    conda env create -f train_env.yaml
+
+Be aware to change the prefix at last line of 'train_env.yaml'
 
 ## 1. Dataset
 
